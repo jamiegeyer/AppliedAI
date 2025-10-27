@@ -61,9 +61,6 @@ def get_recommendations(movie_title, df, top_n=10):
     return df[['title','genres']].iloc[sim_indices]
 
 
-
-# Example usage:
-
 print("++++++++++++++++++++++++++++++++")
 print("++++++++++++++++++++++++++++++++")
 print("++++++++++++++++++++++++++++++++")
